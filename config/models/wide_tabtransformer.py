@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.utils import compute_class_weight
 from sklearn.model_selection import train_test_split
+from config.transformer import TabTransformer
 
 # Focal Loss pour gérer le déséquilibre
 class FocalLoss(tf.keras.losses.Loss):
